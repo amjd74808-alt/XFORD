@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#2563eb">
+<meta name="description" content="تعلم كلمات Oxford 3000 من A1 إلى B2 مع النطق والاختبارات">
+<title>Oxford 3000 - تعلم الإنجليزية</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <h1>Oxford 3000</h1>
+  <button id="installBtn" class="install-btn" hidden>📲 تنزيل كتطبيق</button>
+</header>
+
+<main id="app"></main>
+
+<nav class="bottom-nav">
+  <button data-nav="home" class="active">🏠<span>الرئيسية</span></button>
+  <button data-nav="words">📚<span>الكلمات</span></button>
+  <button data-nav="tests">📝<span>الاختبارات</span></button>
+</nav>
+
+<div id="toast" class="toast" hidden></div>
+
+<script src="words.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
